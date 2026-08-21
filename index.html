@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Candie’s | Sweetness You’ll Love</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fff8fb;
+      color: #333;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #d63384;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #ffe5f0, #fff8fb);
+    }
+
+    .hero h1 {
+      font-size: 55px;
+      color: #d63384;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #d63384;
+      color: white;
+      padding: 13px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 7%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .section-title h2 {
+      font-size: 34px;
+      color: #d63384;
+    }
+
+    .section-title p {
+      margin-top: 8px;
+      color: #777;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .product-image {
+      height: 220px;
+      background: #f8dce9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #999;
+      font-size: 16px;
+    }
+
+    .product-image span {
+      border: 2px dashed #d63384;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .product h3 {
+      margin: 18px 10px 8px;
+      font-size: 21px;
+    }
+
+    .product p {
+      color: #777;
+      padding: 0 15px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: #d63384;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .about {
+      background: white;
+      text-align: center;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.8;
+      color: #666;
+    }
+
+    .contact {
+      text-align: center;
+      background: #ffe5f0;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    .whatsapp {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      background: #25D366;
+      color: white;
+      padding: 14px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 42px;
+      }
+
+      nav a {
+        margin-left: 8px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Candie’s</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div>
+      <h1>Welcome to Candie’s 🍭</h1>
+      <p>Sweet moments. Delicious treats. Made for you.</p>
+      <a href="#products" class="btn">Explore Products</a>
+    </div>
+  </section>
+
+  <section id="products">
+
+    <div class="section-title">
+      <h2>Our Products</h2>
+      <p>Your products will appear here</p>
+    </div>
+
+    <div class="products">
+
+      <!-- PRODUCT 1 -->
+      <div class="product">
+        <div class="product-image">
+          <span>📸 Add Product Photo</span>
+        </div>
+        <h3>Product Name</h3>
+        <p>Write your product description here.</p>
+        <div class="price">Rs. 000</div>
+      </div>
+
+      <!-- PRODUCT 2 -->
+      <div class="product">
+        <div class="product-image">
+          <span>📸 Add Product Photo</span>
+        </div>
+        <h3>Product Name</h3>
+        <p>Write your product description here.</p>
+        <div class="price">Rs. 000</div>
+      </div>
+
+      <!-- PRODUCT 3 -->
+      <div class="product">
+        <div class="product-image">
+          <span>📸 Add Product Photo</span>
+        </div>
+        <h3>Product Name</h3>
+        <p>Write your product description here.</p>
+        <div class="price">Rs. 000</div>
+      </div>
+
+      <!-- PRODUCT 4 -->
+      <div class="product">
+        <div class="product-image">
+          <span>📸 Add Product Photo</span>
+        </div>
+        <h3>Product Name</h3>
+        <p>Write your product description here.</p>
+        <div class="price">Rs. 000</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-title">
+      <h2>About Candie’s</h2>
+    </div>
+
+    <p>
+      Welcome to Candie’s — a place made for people who love
+      delicious and beautiful sweet treats. Explore our products
+      and discover something special for every occasion.
+    </p>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2>Contact Us</h2>
+      <p>Want to place an order? Get in touch with us.</p>
+    </div>
+
+    <a
+      class="btn"
+      href="https://wa.me/923703022377"
+      target="_blank">
+      Order on WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2026 Candie’s. All Rights Reserved.</p>
+  </footer>
+
+  <a
+    class="whatsapp"
+    href="https://wa.me/923703022377"
+    target="_blank">
+    WhatsApp Order
+  </a>
+
+</body>
+    </html>
