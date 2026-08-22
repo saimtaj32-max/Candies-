@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "candies",
+  "main": "worker.js",
+  "compatibility_date": "2026-08-20",
+  "observability": {"enabled": true},
+  "assets": {"directory": ".", "binding": "ASSETS"},
+  "d1_databases": [{"binding":"DB","database_name":"Candy-aura orders","database_id":"5efc041d-53f2-4bb6-9d37-a9b647b0d525"}]
+}
