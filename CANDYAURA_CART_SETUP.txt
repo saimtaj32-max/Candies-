@@ -1,1 +1,0 @@
-Cart checkout is implemented on the professional-candyaura branch. Cloudflare Pages must deploy this branch and bind a KV namespace named ORDERS_KV for website orders to be stored.
