@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://saimtaj32-max.github.io/Candies-/sitemap.xml
